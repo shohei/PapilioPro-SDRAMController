@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\shohei\Desktop\Papilio_pro_sdram\PapilioProSDRAM-Z\MEMTEST.ncd
+OUTFILE=C:\Users\shohei\Desktop\Papilio_pro_sdram\PapilioProSDRAM-Z\MEMTEST.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\shohei\Desktop\Papilio_pro_sdram\PapilioProSDRAM-Z
+LICENSE=WebPack
+USER_INFO=210890982_0_0_109

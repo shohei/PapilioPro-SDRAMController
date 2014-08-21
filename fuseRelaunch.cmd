@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/shohei/Desktop/Papilio_pro_sdram/PapilioProSDRAM-Z/memif_tb_isim_beh.exe" -prj "C:/Users/shohei/Desktop/Papilio_pro_sdram/PapilioProSDRAM-Z/memif_tb_beh.prj" "work.memif_tb" "work.glbl" 
