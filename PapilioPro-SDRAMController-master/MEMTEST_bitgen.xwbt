@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\shohei\Desktop\SDRAM\PapilioPro-SDRAMController-master3\PapilioPro-SDRAMController-master\MEMTEST.ncd
-OUTFILE=C:\Users\shohei\Desktop\SDRAM\PapilioPro-SDRAMController-master3\PapilioPro-SDRAMController-master\MEMTEST.bit
-FAMILY=Spartan6
-PART=xc6slx9-2tqg144
-WORKINGDIR=C:\Users\shohei\Desktop\SDRAM\PapilioPro-SDRAMController-master3\PapilioPro-SDRAMController-master
-LICENSE=WebPack
-USER_INFO=210890982_0_0_109

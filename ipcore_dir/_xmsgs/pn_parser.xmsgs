@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/shohei/Desktop/Papilio_pro_sdram/PapilioProSDRAM-Z/ipcore_dir/dcm32to50.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master4/ipcore_dir/dcm32to50.v&quot; into library work</arg>
 </msg>
 
 </messages>

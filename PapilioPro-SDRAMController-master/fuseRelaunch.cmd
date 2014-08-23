@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/memif_tb_isim_beh.exe" -prj "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/memif_tb_beh.prj" "memif_tb" "work.glbl" 

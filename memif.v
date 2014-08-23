@@ -215,8 +215,8 @@ always @* begin
         WRA:    nxt <= WRA2;
         WRA2:    nxt <= WDLY2;
 	WDLY2: nxt <= WDLY3;
-	WDLY3: nxt <= WDLY4;
-	WDLY4: nxt <= WREND;
+	WDLY3: nxt <= WREND;
+	//WDLY4: nxt <= WREND;
 	WREND: nxt <= HALT;
 
         /* READ“®ì */
@@ -298,7 +298,7 @@ end
 
 /* MCSƒ‚[ƒhŽž‚Ìƒƒ‚ƒŠM† */
 //reg  [23:1]  MMEMADDR;
-reg  [20:0]  MMEMADDR; //21bit address from MCS or other buses
+reg  [21:0]  MMEMADDR; //21bit address from MCS or other buses
 reg          MMEMnOE, MMEMnWE, MMEMnUB, MMEMnLB;
 
 reg         MEMnOE, MEMnWE, MEMnUB, MEMnLB;
@@ -329,6 +329,8 @@ always @* begin
     			else if ( cur==RACT || cur==WACT )
     			    SDRAM_BA <= MMEMADDR[20:19];         /* ACT */
     			else if ( cur==RDA )
+    			    SDRAM_BA <= MMEMADDR[20:19];         /* RDA */
+    			else if ( cur==RDLY2 )
     			    SDRAM_BA <= MMEMADDR[20:19];         /* RDA */
     			else if ( cur== WRA )
     			    SDRAM_BA <= MMEMADDR[20:19];         /* WRA */
@@ -379,10 +381,19 @@ end
 reg [15:0]  rdata_low;
 reg [15:0] rdata_high;
 
+reg [3:0] byteEnable;
+always @(posedge CLK ) begin
+	if(RST)
+		byteEnable <= 4'b0;
+	else if(WRMEM)
+		byteEnable <= IO_Byte_Enable;
+end
+
 always @( posedge CLK ) begin //change value at next clock
     if ( RST )
         rdata_low <= 16'h0;
     else if ( cur==RDLY2) //textbook
+          //rdata_low <= byteEnable;
           rdata_low <= SDRAM_DIN;
     else if (cur==RDEND)
 	rdata_low <= 16'h0;
@@ -392,6 +403,7 @@ always @( posedge CLK ) begin //change value at next clock
     if ( RST )
         rdata_high <= 16'h0;
     else if ( cur==RDLY3) //textbook
+        //rdata_high <= 16'h0;
         rdata_high <= SDRAM_DIN;
     else if (cur==RDEND)
 	rdata_high <= 16'h0;
@@ -468,7 +480,7 @@ always @( posedge CLK ) begin //change value at next clock
         MMEMADDR <= 21'b0;
     else if ( WRMEM | RDMEM )
         //MMEMADDR <= {IO_Address[23:2], 1'b0};
-        MMEMADDR <= IO_Address[20:0]; //extract lower 21bit(remember, sdram_address is 22bit)
+        MMEMADDR <= IO_Address[22:0]>>2; //extract lower 21bit(remember, sdram_address is 22bit)
     /*else if ( status==)
         //MMEMADDR <= {IO_Address[23:2], 1'b1};
         MMEMADDR <= {IO_Address[20:0], 1'b1};

@@ -95,7 +95,8 @@ module SDRAM_Controller (
    parameter  CMD_REFRESH       =  4'b0001;
    parameter  CMD_LOAD_MODE_REG =  4'b0000;
 
-   parameter MODE_REG = 13'b0_0000_0010_0001;
+   //parameter MODE_REG = 13'b0_0000_0010_0001;
+   parameter MODE_REG = 13'b0_0000_0010_0000;
 
    //wire cmd_enable = 1'b1;
    reg cmd_enable;
@@ -445,6 +446,7 @@ always @(posedge clk) begin
             end
 	    s_read_2 : begin
                state <= s_read_3;
+               iob_command     <= CMD_READ;
                if (forcing_refresh == 1'b0 && got_transaction == 1'b1 && can_back_to_back == 1'b1) begin
 		 if (save_wr == 1'b0) begin
                      state           <= s_read_1;
@@ -494,6 +496,7 @@ always @(posedge clk) begin
             end
 	    s_write_2 : begin
                state           <= s_write_3;
+	       iob_command	<= CMD_WRITE;
                iob_data        <= iob_data_next; //comment out for debug
                //dqm_sr[1:0] <= ~save_byte_enable[1:0]; //debug
                //-- can we do a back-to-back write?

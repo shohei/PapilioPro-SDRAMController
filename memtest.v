@@ -146,9 +146,10 @@ MEMIF MEMIF(
     .CMEMnWE_deas   (1'b0),
     .MODE           (MODE)
 );
+
 /*
 SDRAM_Controller hamster(
-    .clk (CLK_100),
+    .clk (CLK_80),
     .reset(RST),
     .SDRAM_ADDR        (SDRAM_ADDR),
     .SDRAM_BA(SDRAM_BA),

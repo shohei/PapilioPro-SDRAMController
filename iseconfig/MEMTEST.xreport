@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-08-21T01:27:30</DateModified>
+  <DateModified>2014-08-23T02:37:50</DateModified>
   <ModuleName>MEMTEST</ModuleName>
-  <SummaryTimeStamp>2014-08-20T08:55:29</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/shohei/Desktop/Papilio_pro_sdram/PapilioProSDRAM-Z/iseconfig/MEMTEST.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/shohei/Desktop/Papilio_pro_sdram/PapilioProSDRAM-Z\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2014-08-23T02:36:21</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master4/iseconfig/MEMTEST.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master4\</ImplementationReportsDirectory>
   <DateInitialized>2014-08-20T08:56:55</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
