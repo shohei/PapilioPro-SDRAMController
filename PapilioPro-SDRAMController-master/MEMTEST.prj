@@ -1,5 +1,0 @@
-verilog work "ipcore_dir/mcs.v"
-verilog work "ipcore_dir/dcm32to50.v"
-verilog work "memif.v"
-verilog work "busif.v"
-verilog work "memtest.v"

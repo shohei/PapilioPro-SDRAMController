@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-08-22T23:46:02</DateModified>
+  <DateModified>2014-08-23T01:09:53</DateModified>
   <ModuleName>MEMTEST</ModuleName>
-  <SummaryTimeStamp>2014-08-22T23:32:29</SummaryTimeStamp>
+  <SummaryTimeStamp>2014-08-23T00:53:49</SummaryTimeStamp>
   <SavedFilePath>C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/iseconfig/MEMTEST.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master\</ImplementationReportsDirectory>
   <DateInitialized>2014-08-20T08:56:55</DateInitialized>
