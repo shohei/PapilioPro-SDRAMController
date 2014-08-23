@@ -327,13 +327,15 @@ always @* begin
     			if ( cur==IMODE )
     			    SDRAM_BA <= 2'b00;               /* MRS */
     			else if ( cur==RACT || cur==WACT )
-    			    SDRAM_BA <= MMEMADDR[21:20];         /* ACT */
+    			    SDRAM_BA <= MMEMADDR[20:19];         /* ACT */
     			else if ( cur==RDA )
-    			    SDRAM_BA <= MMEMADDR[21:20];         /* RDA */
+    			    SDRAM_BA <= MMEMADDR[20:19];         /* RDA */
+    			else if ( cur==RDLY2 )
+    			    SDRAM_BA <= MMEMADDR[20:19];         /* RDA */
     			else if ( cur== WRA )
-    			    SDRAM_BA <= MMEMADDR[21:20];         /* WRA */
+    			    SDRAM_BA <= MMEMADDR[20:19];         /* WRA */
     			else if ( cur== WRA2 )
-    			    SDRAM_BA <= MMEMADDR[21:20];         /* WRA */
+    			    SDRAM_BA <= MMEMADDR[20:19];         /* WRA */
 		        //else if(movtrigger)
 			//    SDRAM_BA <= wrdata_high_ba;
     			else
@@ -344,7 +346,7 @@ always @* begin
     			    //SDRAM_ADDR <= 12'h021;               /* MRS CL=2,BL=2 */
     			    //SDRAM_ADDR <= 12'h221;               /* Burst Read Single Write */
     			else if ( cur==RACT || cur==WACT )
-    			    SDRAM_ADDR <= MMEMADDR[19:8];            /* ACT  - Pass Row Address to SDRAM*/
+    			    SDRAM_ADDR <= MMEMADDR[18:7];            /* ACT  - Pass Row Address to SDRAM*/
     			else if ( cur==IPALL )
     			    //SDRAM_ADDR <= 12'b0100_0000_0000;    /* PALL */
     			    SDRAM_ADDR <= 12'h400;    /* PALL */

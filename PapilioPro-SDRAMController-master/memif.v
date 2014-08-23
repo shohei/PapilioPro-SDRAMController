@@ -215,8 +215,8 @@ always @* begin
         WRA:    nxt <= WRA2;
         WRA2:    nxt <= WDLY2;
 	WDLY2: nxt <= WDLY3;
-	WDLY3: nxt <= WDLY4;
-	WDLY4: nxt <= WREND;
+	WDLY3: nxt <= WREND;
+	//WDLY4: nxt <= WREND;
 	WREND: nxt <= HALT;
 
         /* READ“®ì */
