@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD=31.25ns;&gt; [Papilio-Pro-LogicStart-MegaWing-modified.ucf(29)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[31].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[30].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[29].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[28].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[27].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[26].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[25].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[24].PLBv46_rdBus_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">mcs_0/U0/Debug.mdm_0/MDM_Core_I1/Use_UART.TX_Buffer_Empty_FDRE</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

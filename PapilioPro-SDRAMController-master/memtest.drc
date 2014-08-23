@@ -1,0 +1,11 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat Aug 23 00:53:31 2014
+
+drc -z MEMTEST.ncd MEMTEST.pcf
+
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp TXD_PULLUP
+   is set but the tri state is not configured. 
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

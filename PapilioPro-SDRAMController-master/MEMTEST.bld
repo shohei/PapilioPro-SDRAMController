@@ -1,0 +1,75 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2
+MEMTEST.ngc MEMTEST.ngd -bm mcs.bmm
+
+Reading NGO file
+"C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDR
+AMController-master/MEMTEST.ngc" ...
+Loading design module "ipcore_dir/mcs.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"Papilio-Pro-LogicStart-MegaWing-modified.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <PERIOD=31.25ns;>
+   [Papilio-Pro-LogicStart-MegaWing-modified.ucf(29)], is specified using the
+   Net Period method which is not recommended. Please use the Timespec PERIOD
+   method.
+
+Done...
+
+Processing BMM file "mcs.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[31].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[30].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[29].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[28].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[27].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[26].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[25].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/PLB_Interconnect.PLBv46_rdDBus_DFF[24].PLBv
+   46_rdBus_FDRE' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'mcs_0/U0/Debug.mdm_0/MDM_Core_I1/Use_UART.TX_Buffer_Empty_FDRE' has
+   unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   9
+
+Total memory usage is 189228 kilobytes
+
+Writing NGD file "MEMTEST.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "MEMTEST.bld"...

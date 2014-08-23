@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
+xst -intstyle ise -ifn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.xst" -ofn "C:/Users/shohei/Desktop/SDRAM/PapilioPro-SDRAMController-master3/PapilioPro-SDRAMController-master/MEMTEST.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Papilio-Pro-LogicStart-MegaWing-modified.ucf -bm mcs.bmm -p xc6slx9-tqg144-2 MEMTEST.ngc MEMTEST.ngd -bm "mcs.bmm" 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o MEMTEST_map.ncd MEMTEST.ngd MEMTEST.pcf 
+par -w -intstyle ise -ol high -mt off MEMTEST_map.ncd MEMTEST.ncd MEMTEST.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MEMTEST.twx MEMTEST.ncd -o MEMTEST.twr MEMTEST.pcf -ucf Papilio-Pro-LogicStart-MegaWing-modified.ucf 
+bitgen -intstyle ise -f MEMTEST.ut MEMTEST.ncd 
